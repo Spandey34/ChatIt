@@ -4,5 +4,5 @@ const BASE_URL = import.meta.env.VITE_REACT_APP_BACKEND_BASEURL ? `${import.meta
 console.log(BASE_URL);
 export const axiosInstance = axios.create({
   baseURL: BASE_URL,
-  withCredentials: true, // send cookies with the request
+  withCredentials: true,
 });
